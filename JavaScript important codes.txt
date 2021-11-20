@@ -1,0 +1,67 @@
+Looplar
+Looplar JavaScript-ning asosiy boshqaruv tuzilmalaridan biridir.
+
+Loop yordamida biz kod blokini avtomatlashtirishimiz va takrorlashimiz mumkin, ammo uni ishlashni xohlaymiz, hatto abadiy.
+
+JavaScript-da ko'chadan o'tishni takrorlashning ko'plab usullari mavjud.
+
+Men uchta usulga e'tibor qaratmoqchiman:
+while loops
+for loops
+for..of loops
+while
+While loopi - bu JavaScript-ning bizga taqdim etadigan eng oddiy ko'chadan tuzilishi.
+While kalit so'zidan keyin shart qo'shamiz va shart baholanmaguncha bajariladigan blokni ta'minlaymiz true
+MISOL:
+const list = ['a', 'b', 'c']
+let i = 0
+while (i < list.length) {
+  console.log(list[i]) //value
+  console.log(i) //index
+  i = i + 1
+}
+
+
+Siz break kalit so'zidan foydalanib, while loopini to'xtatishingiz mumkin, masalan:
+
+while (true) {
+  if (somethingIsTrue) break
+}
+
+va agar siz halqa o'rtasida joriy takrorlashni o'tkazib yubormoqchi bo'lsangiz, davom etish yordamida keyingi takrorlashga o'tishingiz mumkin:
+
+
+
+while (true) {
+  if (somethingIsTrue) continue
+
+  //do something else
+}
+
+for
+JavaScript-dagi ikkinchi juda muhim tsikl tuzilishi for loop hisoblanadi.
+
+Biz for so'zidan foydalanamiz va biz 3 ta yo'riqnomani topshiramiz: boshlash, shart va o'sish qismi.
+
+Misol:
+
+const list = ['a', 'b', 'c']
+
+for (let i = 0; i < list.length; i++) {
+  console.log(list[i]) //value
+  console.log(i) //index
+}
+
+
+Xuddi while looplarida bo'lgani kabi, siz ham for yordamida breakni to'xtatishingiz mumkin va siz davom ettirish uchun for loopning keyingi iteratsiyasiga o'tishingiz mumkin.
+
+for ... of
+Ushbu tsikl nisbatan yaqinda (2015 yilda taqdim etilgan) va forning soddalashtirilgan versiyasi:
+
+const list = ['a', 'b', 'c']
+
+for (const value of list) {
+  console.log(value) //value
+}
+
+

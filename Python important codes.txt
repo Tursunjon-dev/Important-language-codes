@@ -1,0 +1,27 @@
+ 								lstrip() 		— matn boshidagi bo'shliqni,
+								rstrip() 		– matn oxiridagi bo'shliqni,
+								strip() 		— matn boshi va oxiridagi bo'shliqlarni olib tashlaydi
+ Bu esa faqatgina eng birinchi so'zning birinchi 		capitalize()
+			harfini katta bilan yozadi.
+ Bu metodi matndagi har bir so'zning birinchi harfini katta 
+				    harf bilan yozadi. 		title()
+ Bu metodi esa aksincha, har bir harfni kichik 	
+					harfga o'zgartiradi	lower() 
+ Bu metodi matndagi har bir harfni katta harfga o'zgartiradi. 	upper() 
+ Ro'yxatga yangi element qo'shishning oson usuli bu 		.append() 		metodi yordamida ro'yxatning oxiriga qiymat qo'shish
+ Ro'yxatning istalgan joyiga yangi element qo'shish uchun 	.insert() 		metodidan foydalanamiz. .insert() metodi ichida yangi elementning indeksi va qiymati beriladi
+ Inedks yordamida olib tashlash uchun 				del 			operatoridan foydalanamiz
+ Element qiymati bo'yichi o'chirish uchun esa 			.remove(qiymat) 	metodidan foydalanamiz. Buning uchun qavs ichida o'chirib tashlash kerak bo'lgan qiymatni yozamiz
+ Buning uchun Pythonda 						.pop(indeks) 		metodidan foydalanmiz
+ Aksar holatlarda ro'yxat ichidagi elementlarni alifbo 
+	ketma-ketligida tartiblash talab qilinishi mumkin. 	.sort(reverse=True) = sorted()
+	Buning uchun list uchun maxsus 				.sort() = sorted()	metodidan foydalanamiz.
+ Ba'zida ro'yxatni aylantirish 
+	(boshini oxiriga, oxirini boshiga) 
+	talab qilinishi mumkin. Buning uchun 			.reverse() 		metodidan foydalanamiz.
+ Yuqoridagi misolda 						range(0,10) 		funktsiyasi 0 dan 9 gacha sonlar ketma-ketligini shakllantirdi, 
+								list(range(0,9)) 	esa bu ketma-ketlikni ro'yxatga aylantirdi.
+ 								max()  			eng katta sonni topish uchun esa
+								sum()			sonlarning yig'indisini topish uchun esa 
+								min()			eng kichik sonni topish uchun 
+								replace()		matn ichidagi belilarni almashtiradi misol:replace('\n', '')

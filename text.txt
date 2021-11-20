@@ -1,0 +1,35 @@
+ uname -a # Linux versiyasini ko’rsatish;
+ clear # Terminal oynasini tozalash;
+ date # Hozirgi kun va vaqtni ko’rsatish;
+ hostname # Kompyuterni tarmoqdagi nomini ko’rsatish;
+ whois jspi.uz # jspi.uz domini haqida ma’lumotlarni chiqarish;
+ wget http://dasturchi.zn.uz/files/terminal-hi.png # Faylni joriy papkaga yuklash;
+ wget –convert-links -r http://dasturchi.zn.uz/ # Saytni butunlay yuklab olib avtonom ishlashni ta’minlash
+ history | tail -50 # Oxirgi 50 ta kamandani chiqarish;
+ exit # Joriy foydalanuvchini ishini yakunlash;
+ passwd # Joriy foydalanuvchini parolini o’zgartirish;
+ shutdown -h now # Linuxdan chiqish;
+ poweroff # Linuxdan chiqish;
+ reboot # Sistemani qayta yuklash;
+ last reboot # Qayta yuklash statistikalari;
+ host dasturchi.zn.uz # Saytni ip adresini ko’rsatish;
+ ls # Joriy papkadagi fayl va kataloglar ro’yxatini chiqarish;
+ cd # Uya papkasiga chiqish;
+ cd /home # /home papkasiga o’tish;
+ cp /home/loock/hello.txt /home/hello.txt  = /home/loock/hello.txt faylini nusxalash /home/hello.txt ;
+ mkdir /home/loock/salom # Salom nomli papka yaratish
+ rmdir /home/loock/salom # salom deb nomlangan papkani o’chirish;
+ rm -rf /home/loock/salom # Salom deb nomlangan katalogni va uning ichidagi fayllarni o’chirish;
+ cp -la /dir1 /dir2 # Papkalarni nusxalash;
+ mv /dir1 /dir2 # Katalogni nomlash;
+ rpm -qa # O’rnatilgan RPM sistemasidagi dasturlarni chiqarish;
+ dpkg -l |more # Deb sistemasidagi o’rnatilgan dasturlarni ko’rsatish
+ sudo dpkg -i *.rpm # Katalogdagi rpm paketlarni o’rnatish;
+ sudo apt-get update # Internetdan o’rnatish mumkin bo’lgan paketlar ro’yxatini olish;
+ sudo apt-get upgrade # Sistemaga o’rnatilgan paketlarni yangilangan versiyalarni o’rnatish
+ sudo apt-get install pkgname # pkgname nomli paketni o’rnatish;
+ sudo apt-get remove pkgname # pkgname nomli paketni o’chirish;
+ sudo dpkg -i *.deb # Katalogdagi deb paketlarni barchasini o’rnatish;
+ sudo mount /dev/sda1 /mnt # Razdelni mounterovat qilish/dev/sda1 ;
+ ifconfig # tarmoq sozlanmalarni ko’rsatish;
+ ifconfig eth0 # eth0 nomli interfaysni sozlanmalarini ko’rish;
